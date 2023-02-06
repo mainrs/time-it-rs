@@ -1,6 +1,6 @@
 # time-it-rs
 
->  A simpel timing proc-macro.
+>  A simple timing proc-macro.
 
 ## Usage
 
