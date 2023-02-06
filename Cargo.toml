@@ -1,0 +1,15 @@
+[package]
+name = "time-it"
+description = "A simple macro to print a function's execution time"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.51"
+quote = "1.0.23"
+syn = { version = "1.0.107", features = ["full"] }
